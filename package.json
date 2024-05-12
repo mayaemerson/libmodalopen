@@ -1,0 +1,23 @@
+{
+  "name": "projeto",
+  "version": "1.0.0",
+  "description": "Projeto para mostar modal ao abrir uma sheets.",
+  "main": "index.js",
+  "scripts": {
+    "glogin": "clasp login",
+    "gclone": "clasp clone  17Xi4SigorbUxebXhlPeHow3UxSU7_gFH3evtVDZaFxRs9QtWljxL5D1Go  --rootDir apps",
+    "glogout": "clasp logout",
+    "gpull": "clasp pull",
+    "gpush": "clasp push",
+    "gstart": "clasp push --watch"
+    
+  },
+
+  "author": "Maia Emerson maiaemersondev@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@types/google-apps-script": "^1.0.83",
+    "prettier": "^3.2.5"
+  }
+}
