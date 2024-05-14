@@ -1,6 +1,3 @@
-
-
-
 function gerenciarGatilhoUsuarioAtivo() {
   // SpreadsheetApp.getUi ()
   // DriveApp.getRootFolder ()
@@ -28,7 +25,6 @@ function gerenciarGatilhoUsuarioAtivo() {
 
 function abrirModalComImagem(nameF, width, height, title, saudacoes) {
   let idIm = idImg(nameF)
-  //idImg = '1HupYMM_e-soJzeeEuaFRtsqg0GNGoA4z'; // ID da imagem tem que esta publica ...
   const file = DriveApp.getFileById(idIm)
   const blob = file.getBlob()
   const base64Img = Utilities.base64Encode(blob.getBytes())
