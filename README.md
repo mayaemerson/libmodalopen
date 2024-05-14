@@ -7,26 +7,46 @@ Lib para exibir imagens do Google Drive em modais personalizados no Google Sheet
 
 ## ✨ Destaques
 
-* **Fácil integração:** Adicione a biblioteca ao seu projeto Apps Script com o Clasp.
-* **Interface intuitiva:** Use a função `getUi().showModalDialog()` para exibir o modal.
-* **Personalização:** Adapte o estilo do modal com Bootstrap 5.
+- **Fácil integração:** Adicione a biblioteca ao seu projeto Apps Script com o Clasp.
+- **Com duas funções:** permissoes / onOpen.
 
 ## 🛠️ Tecnologias
 
-* Google Apps Script
-* Clasp
-* VSCode
-* Prettier
-* Bootstrap 5
+- Google Apps Script
+- Clasp
+- VSCode
+- Prettier
+- Bootstrap 5
 
 ## 🚀 Como usar
+1. Na Ede do Apps Script em Bibliotecas cole o ID `'17Xi4SigorbUxebXhlPeHow3UxSU7_gFH3evtVDZaFxRs9QtWljxL5D1G'` deixe sempre na verão mais atual.
+2. Copie e cole o código no editor do App Script.
+3. Depois Execute a função `permissoes()`.
+4. Agora de um F5 na planilha ou abra novamete.
+5. Se tudo correu bem sua planiha vai funcionar com o modal na abertura da planilha
 
-1. Clone o repositório.
-2. Instale as dependências com `npm install`.
-3. Faça o deploy do projeto com o Clasp.
-4. Chame a função `getUi().showModalDialog()` no seu script Apps Script.
+## Código da planilha (Código.gs)
+
+```javascript
+function permissoes() {
+  menInit.gerenciarGatilhoUsuarioAtivo();
+}
+
+function onOpen() {
+ const nomeArquivoImg = 'welcome.jpg'// aqui o nome do arquivo que esta a imgam jpg ou png  lembrando que a imagem tem que está publica.
+  const setWidth = '' //Largura do showModal, se não for informado o valor do width vamos assumir que ele e 800
+  const setHeight = '' //Altura do showModal, se não for informado o valor do height vamos assumir que ele e 600
+  const title = 'Tenha um ótimo trabalho...' // Aqui e sua mensagem
+ //Saudações de bom dia se deseja usar deixe com está se não marque como false
+ const saudacoes = true
+
+
+  menInit.abrirModalComImagem(nomeArquivoImg,setWidth,setHeight,title,saudacoes)
+}
+
 
 ## 🤝 Contribuindo
 
 Contribuições são bem-vindas! Consulte o guia de contribuição para saber como ajudar.
+
 # libmodalopen
