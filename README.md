@@ -1,9 +1,15 @@
 # 🖼️ showModalDialog Ao Abrir a planilha 🚀
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://www.example.com)](#)
+[![Drive](https://img.shields.io/badge/Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](#)
+[![Sheets](https://img.shields.io/badge/Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white)](#)
+[![JS](https://img.shields.io/badge/JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
+[![Node](https://img.shields.io/badge/Node-339933?style=for-the-badge&logo=node.js&logoColor=white)](#)
+[![Clasp](https://img.shields.io/badge/Clasp-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](#)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](#)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
 
-Lib para exibir imagens do Google Drive em modais personalizados no Google Sheets.
+
+Biblioteca para exibir imagens do Google Drive em modais personalizados no Google Sheets.
 
 ## ✨ Destaques
 
