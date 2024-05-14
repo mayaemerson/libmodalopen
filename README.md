@@ -20,10 +20,12 @@ Lib para exibir imagens do Google Drive em modais personalizados no Google Sheet
 ## 🚀 Como usar
 
 1. No Editor do Apps Script, em "Bibliotecas", cole o ID da biblioteca (`17Xi4SigorbUxebXhlPeHow3UxSU7_gFH3evtVDZaFxRs9QtWljxL5D1G`).
-![Incluir Biblioteca](./imagem/incluedlib/conectarlib.png) 
-
+<div align="center">
+<img src="./imagem/incluedlib/conectarlib.png" alt="Texto alternativo" width="300" height="200">
+</div>
 2. Copie e cole o código abaixo no editor do App Script.
 ```javascript
+function permissoes() {
 function permissoes() {
   menInit.gerenciarGatilhoUsuarioAtivo();
 }
