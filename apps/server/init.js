@@ -1,4 +1,3 @@
-
 function gerenciarGatilhoUsuarioAtivo() {
   // SpreadsheetApp.getUi ()
   // DriveApp.getRootFolder ()
@@ -24,7 +23,7 @@ function gerenciarGatilhoUsuarioAtivo() {
   }
 }
 
-function abrirModalComImagem(nameF,width,height,title,saudacoes) {
+function abrirModalComImagem(nameF, width, height, title, saudacoes) {
   let idIm = idImg(nameF)
   //idImg = '1HupYMM_e-soJzeeEuaFRtsqg0GNGoA4z'; // ID da imagem tem que esta publica ...
   const file = DriveApp.getFileById(idIm)
@@ -35,16 +34,16 @@ function abrirModalComImagem(nameF,width,height,title,saudacoes) {
   let wid = width
   let heig = height
 
-  if(wid === '') {
+  if (wid === '') {
     wid = '800'
   }
 
-  if(heig === '') {
+  if (heig === '') {
     heig = '600'
   }
 
-  const saudacaor = saudacoes ? saudacao() : '';
-  const virgula = saudacoes ? ',' : '';
+  const saudacaor = saudacoes ? saudacao() : ''
+  const virgula = saudacoes ? ',' : ''
   const htmlOutput = HtmlService.createHtmlOutput(
     `
       <html>
@@ -71,7 +70,6 @@ function abrirModalComImagem(nameF,width,height,title,saudacoes) {
     htmlOutput,
     `${saudacaor}${virgula} ${tit}`
   )
-  
 }
 
 function idImg(nameFile) {
