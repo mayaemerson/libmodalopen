@@ -1,3 +1,6 @@
+
+
+
 function gerenciarGatilhoUsuarioAtivo() {
   // SpreadsheetApp.getUi ()
   // DriveApp.getRootFolder ()
