@@ -1,4 +1,4 @@
-# 🖼️ Modal de Imagem do Drive para Google Sheets 🚀
+# 🖼️ showModalDialog Ao Abrir a planilha 🚀
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://www.example.com)](#)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
@@ -9,6 +9,7 @@ Lib para exibir imagens do Google Drive em modais personalizados no Google Sheet
 
 - **Fácil integração:** Adicione a biblioteca ao seu projeto Apps Script com o Clasp.
 - **Com duas funções:** `permissoes` / `onOpen`.
+- **Configure:** `nomeArquivoImg` - `setWidth setHeight` -  `title` - `saudacoes`.
 
 ## 🛠️ Tecnologias
 
@@ -55,8 +56,9 @@ Se tudo correu bem, sua planilha exibirá o modal ao abrir.
 <img src="./imagem/incluedlib/telaplanilha.png" alt="Texto alternativo" width="500" height="250">
 </div>
 
-## 🤖 Código da planilha (Código.gs)
+ ## 🤝 Contribuições são bem-vindas!
 
+ Este projeto é de código aberto e sua colaboração é muito apreciada! Se você tiver alguma ideia, sugestão de melhoria, correção de bugs ou qualquer outra contribuição, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
- ##
+Juntos, podemos tornar esta biblioteca ainda mais útil e completa para a comunidade! 😊
 
