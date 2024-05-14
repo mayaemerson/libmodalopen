@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "glogin": "clasp login",
-    "gclone": "clasp clone 17Xi4SigorbUxebXhlPeHow3UxSU7_gFH3evtVDZaFxRs9QtWljxL5D1G  --rootDir apps",
+    "gclone": "clasp clone id projeto  --rootDir apps",
     "glogout": "clasp logout",
     "gpull": "clasp pull",
     "format": "prettier --write \"apps/**/*.js\"",
