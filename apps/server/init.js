@@ -83,24 +83,26 @@ function idImg(nameFile) {
 }
 
 const saudacao = () => {
-    const agora = new Date();
-    const horaBrasilia = parseInt(Utilities.formatDate(agora, "America/Sao_Paulo", "H"), 10); 
-    const saudacoes = {
-      5: 'Boa noite,',
-      12: 'Bom dia,',
-      18: 'Boa tarde,'
-    };
-    
-    if (horaBrasilia < 5 || horaBrasilia >= 18) {
-      return saudacoes[5];
+  const agora = new Date()
+  const horaBrasilia = parseInt(
+    Utilities.formatDate(agora, 'America/Sao_Paulo', 'H'),
+    10
+  )
+  const saudacoes = {
+    5: 'Boa noite',
+    12: 'Bom dia',
+    18: 'Boa tarde',
+  }
+
+  if (horaBrasilia < 5 || horaBrasilia >= 18) {
+    return saudacoes[5]
+  }
+
+  for (const limite in saudacoes) {
+    if (horaBrasilia < limite) {
+      return saudacoes[limite]
     }
-  
-    for (const limite in saudacoes) {
-      if (horaBrasilia < limite) {
-        return saudacoes[limite];
-      }
-    }
-  
-    return saudacoes[5];
-  };
-  
+  }
+
+  return saudacoes[5]
+}
